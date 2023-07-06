@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+}
+
+.navElement {
+  justify-content: space-between;
+  display: flex;
+  padding: 10px 10vw;
+}
+
+.navbarElement {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: sticky;
+  background: rgb(255, 255, 255);
+  z-index: 9;
+}
+
+.navElementItems {
+  align-items: center;
+  display: flex;
+}
+
+.sampleLogo {
+  height: 60px;
+}
+
+.shoppingCartIcon {
+  max-width: 75px;
+  max-height: 60px;
+}
+
+.searchElement {
+  display: flex;
+}
+
+.searchBoxElement {
+  height: 40px;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid rgb(227, 227, 227);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  color: rgb(176, 176, 176);
+  background: none;
+  outline: none;
+}
+
+.searchBoxElement::placeholder {
+  color: rgb(172, 172, 172);
+}
+
+.searchButton {
+  padding: 10px 40px;
+  height: 40px;
+  width: 0%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background: rgb(58, 58, 58);
+  text-transform: capitalize;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 12px;
+}
+
+.navElementItems a {
+  margin-left: 15px;
+}
+
+.navElementItems a img {
+  width: 25px;
+}
+
+.linksArea {
+  display: flex;
+  padding: 10px 10vw;
+  width: 100%;
+  border-top: 1px solid rgb(206, 206, 206);
+  list-style: none;
+  justify-content: center;
+}
+
+.linkItem {
+  margin: 0 5px;
+  padding: 0 10px;
+  text-decoration: none;
+  transition: 0.4s;
+  opacity: 0.4;
+}
+
+.linkItem:hover {
+  opacity: 1;
+}

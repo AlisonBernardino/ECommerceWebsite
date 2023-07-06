@@ -1,0 +1,214 @@
+@import './NavStyles.css';
+@import './FooterStyles.css';
+
+/* "Member" area stylization */
+.memberSection {
+  display: flex;
+  height: calc(100vh - 120px);
+  width: 100%;
+  background-size: cover;
+  background-image: url('../images/SunsetCity.jpg');
+  align-items: center;
+  justify-content: center;
+}
+
+.memberSection .logoArea {
+  display: block;
+  margin: auto;
+  height: 150px;
+}
+
+.memberSection .subHeadingArea {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+/* "Product" area stylization */
+.productArea {
+  overflow: hidden;
+  position: relative;
+  padding: 20px 0;
+}
+
+.productCategoryArea {
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  font-weight: 500;
+  padding: 0 10vw;
+  font-size: 30px;
+}
+
+.productContainerArea {
+  display: flex;
+  padding: 0 10vw;
+  scroll-behavior: smooth;
+  overflow-x: auto;
+}
+
+.productContainerArea::-webkit-scrollbar {
+  display: none;
+}
+
+.productCardArea {
+  height: 450px;
+  width: 250px;
+  margin-right: 40px;
+  flex: 0 0 auto;
+}
+
+.productImageArea {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+
+.discountTagElement {
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+  top: 10px;
+  right: 10px;
+  color: rgb(60, 177, 255);
+}
+
+.cardButtonArea {
+  padding: 10px;
+  bottom: 10px;
+  left: 50%;
+  width: 90%;
+  transform: translateX(-50%);
+  position: absolute;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.4s;
+  opacity: 0;
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+}
+
+.productCardArea:hover .cardButtonArea {
+  opacity: 2;
+}
+
+.cardButtonArea:hover {
+  background: rgb(255, 255, 255);
+}
+
+.normalPriceArea {
+  color: rgb(240, 0, 0);
+  text-decoration: line-through;
+  font-weight: 900;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.priceWithDiscountArea {
+  color: rgb(60, 177, 255);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.productInformationArea {
+  padding-top: 10px;
+  height: 100px;
+  width: 100%;
+}
+
+.productBrandArea {
+  text-transform: capitalize;
+}
+
+.productDescriptionArea {
+  height: 20px;
+  width: 100%;
+  opacity: 0.5;
+  overflow: hidden;
+  line-height: 20px;
+  margin: 5px 0;
+}
+
+.productImageArea {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+/* "Slider buttons" area stylization */
+.previousSliderElement,
+.nextSliderElement {
+  top: 0;
+  right: 0;
+  width: 10vw;
+  height: 100%;
+  z-index: 8;
+  border: none;
+  border: none;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 100%
+  );
+}
+
+.nextSliderElement {
+  right: 0;
+}
+
+.previousSliderElement {
+  left: 0;
+}
+
+.sliderIcon {
+  max-width: 50px;
+  max-height: 50px;
+  opacity: 0.5;
+  transition: 0.6s;
+}
+
+.sliderIcon:hover {
+  opacity: 1.2;
+}
+
+/* "Products collection" stylizations */
+.collectionsContainerArea {
+  display: grid;
+  width: 100%;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.collectionElement {
+  position: relative;
+}
+
+.collectionImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.collectionElement p {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.collectionElement:nth-child(2) {
+  margin-bottom: 10px;
+  grid-column: span 1;
+}
+
+.collectionImage {
+  max-height: 500px;
+  max-width: 500px;
+}
