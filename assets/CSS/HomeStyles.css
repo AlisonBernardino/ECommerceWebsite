@@ -7,7 +7,7 @@
   height: calc(100vh - 120px);
   width: 100%;
   background-size: cover;
-  background-image: url('/assets/images/SunsetCity.jpg');
+  background-image: url('../images/SunsetCity.jpg');
   align-items: center;
   justify-content: center;
 }
