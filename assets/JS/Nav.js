@@ -3,7 +3,7 @@ const elaborateNav = () => {
 
     navItem.innerHTML = `
         <div class="navElement">
-            <img src="./assets/images/BERCOWORLogo.png" class="sampleLogo"
+            <img src="/assets/images/BERCOWORLogo.png" class="sampleLogo"
                 alt="sampleLogo">
                 <div class="navElementItems">
                     <div class="searchElement">
@@ -13,11 +13,11 @@ const elaborateNav = () => {
                     </div>
                     <div class="shoppingCartIcon">
                         <a href="#">
-                            <img src="./assets/images/ShoppingCartImage.png"
+                            <img src="/assets/images/ShoppingCartImage.png"
                                 alt="CartImage"></a>
                     </div>
                     <div class="userIcon">
-                        <a href="#"><img src="./assets/images/userImage.png"
+                        <a href="#"><img src="/assets/images/userImage.png"
                             alt="UserImage">
                         </a>
                     </div>
