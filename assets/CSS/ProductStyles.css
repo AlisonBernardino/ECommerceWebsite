@@ -10,7 +10,7 @@
   height: 500px;
   width: 500px;
   background-size: cover;
-  background-image: url('../images/Products/productA.png');
+  background-image: url('./assets/images/Products/productA.png');
 }
 
 .productImages {

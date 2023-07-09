@@ -3,7 +3,7 @@ const elaborateFooter = () => {
 
     footerItem.innerHTML = `
         <div class="footerContentArea">
-            <img src="../images/BERCOWORLogo.png" class="logoElement" alt="sampleLogo">
+            <img src="./assets/images/BERCOWORLogo.png" class="logoElement" alt="sampleLogo">
                 <div class="footerULContainerArea">
                     <ul class="categoryElement">
                         <li class="menTitleArea">Men</li>
