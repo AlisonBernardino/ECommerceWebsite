@@ -17,7 +17,7 @@ const elaborateNav = () => {
                                 alt="CartImage"></a>
                     </div>
                     <div class="userIcon">
-                        <a href="#"><img src="/assets/images/userImage.png"
+                        <a href="#"><img src="/assets/images/UserImage.png"
                             alt="UserImage">
                         </a>
                     </div>
