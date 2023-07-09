@@ -1,0 +1,23 @@
+.searchResultsArea {
+  padding: 60px;
+  width: 100%;
+}
+
+.headingArea {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 10vw;
+  margin-bottom: 40px;
+}
+
+.headingArea span {
+  font-weight: 700;
+}
+
+/* "Product container" area stylization */
+.productContainerArea {
+  display: grid;
+  height: auto;
+  grid-row-gap: 40px;
+  grid-template-columns: repeat(4, 1fr);
+}

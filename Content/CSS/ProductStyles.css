@@ -1,0 +1,127 @@
+.productDetailsArea {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 60px 10vw;
+}
+
+.imageSliderArea {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-image: url('../images/Products/productA.png');
+}
+
+.productImages {
+  display: grid;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  padding: 10px;
+  width: 90%;
+  height: 100px;
+  grid-gap: 10px;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  grid-template-columns: repeat(4, 1fr);
+  background: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+.productImages img {
+  height: 80px;
+  width: 100%;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.productImages img.active {
+  opacity: 0.4;
+}
+
+/* "Product details" area stylization */
+.detailsArea {
+  width: 50%;
+}
+
+.detailsArea .productBrandArea {
+  font-size: 30px;
+}
+
+.detailsArea .shortDescriptionArea {
+  margin: 15px 0 30px;
+  height: auto;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+.normalProductPrice {
+  opacity: 0.5;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0 20px;
+  text-decoration: line-through;
+}
+
+.productPriceWithDiscount {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.productDiscountArea {
+  font-size: 20px;
+  color: rgb(252, 0, 0);
+}
+
+.productSubHeadingArea {
+  font-weight: 300;
+  margin: 60px 0 10px;
+  font-size: 30px;
+}
+
+.modelRadioButton {
+  display: inline-block;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  font-size: 20px;
+  line-height: 80px;
+  margin: 10px;
+  margin-left: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid rgb(47, 47, 47);
+  color: rgb(73, 73, 73);
+}
+
+.modelRadioButton.checked {
+  color: rgb(255, 255, 255);
+  background: rgb(99, 193, 255);
+}
+
+.cartButton {
+  font-size: 15px;
+  margin: 15px 0;
+  padding: 20px;
+  width: 48%;
+  background: rgb(85, 251, 126);
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(65, 65, 65);
+  color: rgb(39, 39, 39);
+}
+
+.deepDetailsArea {
+  padding: 0 10vw;
+}
+
+.headingArea {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.detailsText {
+  line-height: 25px;
+  color: rgb(40, 40, 40);
+}

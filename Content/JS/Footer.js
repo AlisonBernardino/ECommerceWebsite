@@ -53,10 +53,11 @@ const elaborateFooter = () => {
         <p class="infoElement">Phone: 000 0000 00 00</p>
         <div class="footerSocialContainerElement">
             <div>
-                <a href="#" class="socialLinkItem">Terms</a>
-                <a href="#" class="socialLinkItem">Privacy</a>
+                <a href="#" class="socialLinkItem">Terms & services</a>
+                <a href="#" class="socialLinkItem">Privacy policy</a>
             </div>
             <div>
+                <p class="footerTitle">Our social media:</p>
                 <a href="#" class="socialLinkItem">Instagram</a>
                 <a href="#" class="socialLinkItem">LinkedIn</a>
             </div>
